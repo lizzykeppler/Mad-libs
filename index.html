@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>MadLibs Challenge</h1>
     <p>
-            <input id="noun" type="text" placeholder="noun"> 
-            <input id="verb" type="text" placeholder="verb">
-            <input id="verb-ing" type="text" placeholder="verb ending ing"
+        noun
     </p>
-    <button>Make MidLib</button>
-</body>
+    <input id ="noun">
+
+    <p>
+        verb
+    </p>
+    <input id ="verb">
+
+    <p>
+        verb-ing 
+    </p>
+    <input id="verb-ing">
+    
+    <button onclick="mad()">Make MadLib </button>
+    
+    
+    <p id='mad libber'>
+        Enter the required fields to view the mad lib.
+    </p>
     <script src="main.js"></script>
+</body>
 </html>
